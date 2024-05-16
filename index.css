@@ -1,0 +1,209 @@
+body{
+  color: white;
+  background-image: url(./assets/image\ 4.png);
+  background-size: cover;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  }
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  margin-bottom: 80px;
+  }
+
+  .search-btn{
+    background: none;
+    border: none;
+  }
+
+  .search-icon{
+    color: white;
+    }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+  }
+  header nav a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .profile{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .kids{
+    color: white;
+    text-decoration: none;
+  }
+
+  .user-image {
+    border-radius: 100%;
+  }
+
+ 
+  /*MAİN
+  */
+  .top-logo{
+    display: flex;
+    gap: 0.8rem;
+    padding: 0.5rem 1rem;
+
+  }
+
+  .small-logo {
+    width: 30px;
+    height: 40px;
+  }
+
+  .series{
+    margin: 0;
+    font-weight: lighter;
+  }
+
+  .font-image{
+    width: 600px;
+    padding: 0.5rem 1rem;
+
+  }
+  .top-tenimage{
+    padding: 0.5rem 0.2rem 0.5rem 1rem;
+    width: 25px;
+    height: 25px;
+  }
+
+  .top-ten{
+    display: flex;
+    
+  }
+  .number-one{
+    margin-top: 0.4rem;
+    padding: 0;
+  }
+  .explanation{
+    display: flex;
+    max-width: 40%;
+    padding: 0.5rem 1rem;
+  }
+  
+  .buttons{
+    padding: 0.5rem 1rem;
+  }
+  .buttons button{
+    font-weight: bold;
+    padding: 0.5em 1rem;
+  }
+
+  .info-btn{
+    width: 30px;
+
+  /*section */
+  }
+  h3{
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .cards{
+    max-width: 1487px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  
+@media(max-width : 992px) {
+  body{
+    background-image: url(./assets/image\ 4\ mobile.png);
+    background-size: 100% 100%;
+  }
+
+  header {
+    font-size: 0;
+    background-image: url(./assets/Status\ bar.png), url(./assets/image\ 5.png);
+    background-size: contain, 40px 60px ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, 4% 110%;     
+  }
+
+  .main-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47%;
+  }
+
+  .netflix-img{
+    display: none;
+  }
+
+  .search-btn{
+    display: none;
+  }
+
+  .user-image{
+    margin-left: 50px;
+    margin-top: 75px;
+    border-radius: 10%;
+    width: 35px;
+  }
+
+  .profile{
+    background-image: url(./assets/cast.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 30% 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top-ten{
+    display: none;
+  }
+
+  .explanation{
+    display: none;
+  }
+
+  .top-logo{
+    width: 30%;
+  }
+
+  .series{
+    display: flex;
+    font-size: medium;
+    align-items: center;
+  }
+
+  .font-image{
+    margin-left: 20%;
+    width: 50%;  
+  }
+
+  .popular{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cards{
+    max-width: 93%;
+  }  
+
+
+
+
+
+
+
+
+}
